@@ -1,16 +1,24 @@
 body
-{background-color:#a1a09d;
+{background-image:url(https://bellagio.mgmresorts.com/content/dam/MGM/bellagio/hotel/exterior/bellagio-hotel-exterior-south-angle-lagoon-close-up.tif);
+background-size:1500px 1100px;
+background-repeat:no-repeat;
+display:block;
+box-shadow: inset 0 0 0 100% rgba(0,0,0,.4);
 }
+
 #special
 {  height:20%;
 	width:30%;
-	margin:8% 35%;
-	border:1px solid white;
-	padding: 60px ;
+	margin:11% 35% 8% 65%;
+	
+	padding: 40px ;
   padding-top: 20px;
+  box-shadow: 2px 2px #888888;
 float:none;
-position: relative;
+position:relative;
 background-color:white;
+border-radius:10px;
+
 }
 
 

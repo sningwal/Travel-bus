@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>bellagio</title>
+  <title>login</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -12,17 +12,18 @@
 
 </head>
 <body>
+	
 <nav class="navbar navbar-inverse" padding = "0pt" margin = "0pt">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="home.html">Bellagio</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="home.html">Home</a></li>
+      <li><a href="home.html">Home</a></li>
          </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 </nav>
@@ -36,13 +37,13 @@
     <input type="email" class="form-control" id="email">
   </div>
   <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
+    <label for="pwd">Password</label>
+    <input type="password" class="form-control" id="pwd" placeholder="************">
   </div>
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
   </div>
-  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="submit" class="btn btn-success">login</button>
 </form></div>
 </body>
 </html>
