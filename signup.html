@@ -33,7 +33,7 @@
 <form action="/action_page.php">
   <div class="form-group">
     <label>Full Name:</label>
-    <input type="text" class="form-control" id="Name">
+    <input type="text" class="form-control" id="Name" required placeholder="Priyank Mishra">
   </div>
   <div class="form-group">
     <label>Gender:</label><br>
@@ -43,18 +43,18 @@
   </div>
   <div class="form-group">
     <LABEL>Contact No.:</LABEL>
-    <input type="text" class="form-control" id="Contact No."></div>
+    <input type="text" class="form-control" id="Contact No." placeholder="1234567890" required title="Correct Phone no,"></div>
   <div class="form-group">
     <label for="email">Email address:</label>
-    <input type="email" class="form-control" id="email">
+    <input type="email" class="form-control" id="email" placeholder="username@gmail.com" required checked>
   </div>
   <div class="form-group">
     <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
+    <input type="password" class="form-control" id="pwd" placeholder="************"  pattern=".{8}" required title="minimun 8 charater required">
   </div>
   <div class="form-group">
     <label for="pwd">Confirm Password:</label>
-    <input type="password" class="form-control" id="pwd">
+    <input type="password" class="form-control" id="pwd" placeholder="************"  pattern=".{8}" required title="minimun 8 charater required">
   </div>
   <div class="checkbox">
     <label><input type="checkbox"> Agree to all terms and condition</label>
