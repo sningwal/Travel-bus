@@ -1,0 +1,33 @@
+body{
+
+	background-image:url(https://i.pinimg.com/originals/c4/9b/d1/c49bd1b287c44933005a50e9bb857b54.jpg);
+background-repeat: no-repeat;
+background-size:1400px 800px;
+}
+.section {
+position:;
+}
+
+
+
+#booking {
+	margin:12% 2% 70% 65%;
+	background-color: white;
+	border-radius: 20px;
+	padding:20px;
+	width:30%;
+	position:fixed;
+	opacity:.8;
+}
+
+#block
+{
+   margin-top:12%;
+	margin-left:3%;
+	color:white;
+	position:fixed;
+    opacity:1;
+    font-size: x-large;
+    font-family: roboto;
+	}
+
