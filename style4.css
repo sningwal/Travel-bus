@@ -2,7 +2,7 @@ body{
 
 	background-image:url(https://i.pinimg.com/originals/c4/9b/d1/c49bd1b287c44933005a50e9bb857b54.jpg);
 background-repeat: no-repeat;
-background-size:1400px 800px;
+background-size: cover;
 }
 .section {
 position:;
@@ -22,7 +22,7 @@ position:;
 
 #block
 {
-   margin-top:12%;
+   margin-top:14%;
 	margin-left:3%;
 	color:white;
 	position:fixed;
